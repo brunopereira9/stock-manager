@@ -1,0 +1,6 @@
+[submodule "front-stock-manager"]
+	path = front-stock-manager
+	url = https://github.com/brunopereira9/front-stock-manager.git
+[submodule "back-stock-manager"]
+	path = back-stock-manager
+	url = https://github.com/brunopereira9/back-stock-manager.git
