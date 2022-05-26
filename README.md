@@ -1,24 +1,24 @@
 # stock-manager
 
-# Back-End
-# Getting Started
+## Back-End
+#### Getting Started
 
 Clone o repositório e caso seja necessário altere a porta do servidor no arquivo Properties\launchSettings.json
 
 `git clone https://github.com/brunopereira9/back-stock-manager.git`
 
-## Configure a StringConection em appsettings
+#### Configure a StringConection em appsettings
 
 `"Server=localhost\\SQLEXPRESS;Database=Stock_Manager;Trusted_Connection=True;"`
 
-# Migrations
-### Instale dotnet ef
-``
+### Migrations
+#### Instale dotnet ef
+`dotnet tool install --global dotnet-ef`
 
-### Migration Init
-``
+#### Migration Init
+`dotnet ef database update`
 
-### Start
+#### Start
 
 `dotnet run`
 
@@ -32,8 +32,8 @@ Clone o repositório e caso seja necessário altere a porta do servidor no arqui
 
 `https://github.com/brunopereira9/front-stock-manager.git`
 
-# Front-End
-# Getting Started
+## Front-End
+### Getting Started
 
 Clone o repositório e altere a porta do servidor no arquivo .env
 
@@ -43,6 +43,6 @@ Clone o repositório e altere a porta do servidor no arquivo .env
 
 `npm start`
 
-### Verifique o back-end no repositório abaixo
+#### Verifique o back-end no repositório abaixo
 
 `https://github.com/brunopereira9/back-stock-manager.git`
